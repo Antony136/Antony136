@@ -7,7 +7,11 @@
 </p>
 
 <p align="center">
-  <!-- Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Antony136&theme=radical&hide_border=true&background=0d1117&stroke=ff79c6&ring=50fa7b&fire=ff5555" alt="GitHub Streak" width="60%" />
+  <!-- Streak Stats (Stable Version) -->
+  <img 
+    src="https://streak-stats.demolab.com?user=Antony136&theme=radical&hide_border=true&background=0d1117&stroke=ff79c6&ring=50fa7b&fire=ff5555&currStreakNum=ffffff&sideNums=ffffff&cache_seconds=7200"
+    alt="GitHub Streak" 
+    width="60%" 
+  />
 </p>
 
