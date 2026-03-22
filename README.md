@@ -7,7 +7,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Antony136&label=Profile+Views&color=6d28d9&style=flat-square" alt="profile views" />
-  <img src="https://img.shields.io/badge/CGPA-8.67%2F10-6d28d9?style=flat-square" />
   <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-10b981?style=flat-square" />
 </p>
 
