@@ -1,18 +1,17 @@
 <div align="center">
 
-<!-- Typing animation header -->
-<img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=32&duration=3000&pause=1000&color=6D28D9&center=true&vCenter=true&width=600&lines=Hey+there%2C+I'm+Antony+Abishek+%F0%9F%91%8B;Full+Stack+Developer;MERN+%7C+TypeScript+%7C+PostgreSQL;Building+things+that+matter." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=32&duration=3000&pause=1000&color=6D28D9&center=true&vCenter=true&width=700&lines=Hey+there%2C+I'm+Antony+Abishek+A+%F0%9F%91%8B;Full+Stack+Developer;MERN+%7C+TypeScript+%7C+FastAPI+%7C+AI%2FML;Building+things+that+matter." alt="Typing SVG" />
 
 <br/>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Antony136&label=Profile+Views&color=6d28d9&style=flat-square" alt="profile views" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-10b981?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Full%20Stack%20%2B%20AI%2FML-f97316?style=flat-square" />
 </p>
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6d28d9&height=120&section=header&text=&fontSize=0" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=140&section=header&text=&fontSize=0" />
 
 </div>
 
@@ -21,11 +20,12 @@
 ## 🧠 About Me
 
 ```typescript
-const antony = {
+const antony: Developer = {
   name:       "Antony Abishek A",
   role:       "Full Stack Developer",
   education:  "B.E. Computer Science Engineering — 3rd Year",
-  focus:      ["MERN Stack", "TypeScript", "System Design", "AIML"],
+  focus:      ["MERN Stack", "TypeScript", "FastAPI", "AI/ML", "System Design"],
+  domains:    ["Web Development", "Medical AI", "IoT Systems", "Computer Vision"],
   currentlyLearning: ["AI/ML Integration", "System Design", "DevOps basics"],
   passionateAbout:   "Building scalable apps that solve real problems",
   portfolio:  "https://antonyabishek.vercel.app",
@@ -51,17 +51,26 @@ const antony = {
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-### Backend & Database
+### Backend & AI
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+
+### Databases & Cloud
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-### Tools
+### Tools & Deployment
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
@@ -75,6 +84,65 @@ const antony = {
 <tr>
 <td width="50%" valign="top">
 
+### 🏥 Diabetic Retinopathy
+> *React 19 · FastAPI · PyTorch · PostgreSQL · Supabase*
+
+A **production-grade Medical AI platform** helping ophthalmologists screen and prioritize Diabetic Retinopathy cases using fundus images — deployed on 512MB RAM.
+
+**What it does:**
+- 🧠 AI classifies fundus images into 5 DR stages instantly
+- 🗺️ Grad-CAM heatmaps show exactly *why* the AI made its decision (XAI)
+- 👁️ Full patient history, longitudinal tracking and screening records
+- 📊 Interactive analytics dashboard for clinic trends
+- 📄 Export professional PDF reports and CSV data
+- ☁️ Supabase Storage for reliable medical image hosting
+
+**Technical highlights:**
+- EfficientNet-B3 with Transfer Learning + Mixup data augmentation
+- Integrated Grad-CAM hooks for Explainable AI
+- Pure NumPy/Pillow JET colormap — saves ~100MB RAM vs Matplotlib
+- Gradient purging after heatmap generation to stay within 512MB limit
+- Gunicorn + Uvicorn with `--worker-tmp-dir /dev/shm` for stability
+
+![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 Full-Stack Portfolio
+> *React 18 · Three.js · Node.js · MongoDB · Framer Motion*
+
+A **state-of-the-art personal portfolio** built with immersive 3D visuals, glassmorphic design, and a fully integrated blog and contact system.
+
+**What it does:**
+- 🌌 3D interactive star field background built with Three.js + React Three Fiber
+- 💎 Glassmorphic UI with frosted glass effects and micro-animations
+- 🖱️ Custom ring-following cursor for enhanced engagement
+- 📝 Integrated blog system with real-time MongoDB data fetching
+- 📬 Functional contact form — messages saved directly to database
+- 📈 Scroll depth indicator and Vercel Analytics integration
+- 🔍 Dynamic SEO meta tags via `react-helmet-async`
+
+**Technical highlights:**
+- React Three Fiber for declarative 3D scene management
+- Framer Motion for physics-based smooth transitions
+- Full MERN backend powering blog and contact features
+- Advanced SEO with canonical URLs and dynamic meta injection
+
+[![Live](https://img.shields.io/badge/🌐_Live-antonyabishek.vercel.app-6d28d9?style=flat-square)](https://antonyabishek.vercel.app)
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🏢 Mini CRM — Lead Management System
 > *Full Stack · MERN · JWT · Recharts*
 
@@ -84,15 +152,17 @@ A **production-ready CRM** built for agencies and freelancers to manage incoming
 - 📥 Public contact form captures leads automatically
 - 📊 Analytics dashboard with 7 interactive charts
 - 🔄 Pipeline tracking: New → Contacted → Converted
-- 📝 Follow-up notes with timestamps
+- 📝 Follow-up notes with timestamps per lead
 - 📄 Export PDF reports and CSV data
-- 🔐 JWT-secured admin panel
+- 🔐 JWT-secured admin panel with profile settings
 
 **Technical highlights:**
-- Data-driven PDF generation with `jsPDF` (no DOM screenshotting)
-- Axios interceptor for automatic JWT injection
+- Data-driven PDF generation with `jsPDF` — no DOM screenshotting
+- Axios interceptor for automatic JWT injection on every request
 - Optimistic UI updates without page reloads
-- Recharts with custom tooltips and sparklines
+- Recharts with custom tooltips, sparklines and funnel charts
+
+[![Live](https://img.shields.io/badge/🌐_Live-minicrm--self.vercel.app-6d28d9?style=flat-square)](https://minicrm-self.vercel.app)
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -100,6 +170,35 @@ A **production-ready CRM** built for agencies and freelancers to manage incoming
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
 </td>
+<td width="50%" valign="top">
+
+### 🚦 AI-Driven Traffic Management System
+> *React · Node.js · PostgreSQL · Computer Vision · IoT*
+
+A **smart traffic optimization platform** that uses computer vision and IoT sensors to reduce urban congestion in real time.
+
+**What it does:**
+- 📷 Computer vision analyzes live camera feeds for vehicle density
+- 🚦 Dynamically adjusts signal timings based on real traffic load
+- 📊 Live dashboard showing congestion levels across intersections
+- 🗺️ Detects and flags congestion hotspots automatically
+- 📈 Historical data analysis for traffic pattern prediction
+
+**Technical highlights:**
+- Computer vision pipeline processes real-time video frames
+- IoT sensor fusion for multi-source traffic data
+- PostgreSQL stores historical patterns for ML training
+- React dashboard with live updating charts
+
+[![Live](https://img.shields.io/badge/🌐_Live-roadzenview1.vercel.app-6d28d9?style=flat-square)](https://roadzenview1.vercel.app)
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![ComputerVision](https://img.shields.io/badge/Computer_Vision-f97316?style=flat-square)
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🎓 Campus Event Portal
@@ -112,12 +211,12 @@ A **centralised event management platform** for college students to discover, re
 - 📋 Register for events with real-time seat availability
 - 🔔 Track registration status and event updates
 - 🔐 Secure authentication for students and organizers
-- 📱 Responsive UI for mobile and desktop
+- 📱 Fully responsive for mobile and desktop
 
 **Technical highlights:**
-- Built with TypeScript end-to-end for type safety
+- Built with TypeScript end-to-end for full type safety
 - PostgreSQL with relational schema for events and registrations
-- Real-time updates for seat availability
+- Real-time seat availability updates
 - Role-based access: student vs organizer views
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -125,8 +224,6 @@ A **centralised event management platform** for college students to discover, re
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 📦 IoT-Blockchain Supply Chain Tracker
@@ -149,31 +246,6 @@ A **real-time perishable goods tracking system** combining IoT sensors and block
 ![IoT](https://img.shields.io/badge/IoT-Sensors-10b981?style=flat-square)
 ![Blockchain](https://img.shields.io/badge/Blockchain-627EEA?style=flat-square&logo=ethereum&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 🚦 AI-Driven Traffic Management System
-> *React · Node.js · PostgreSQL · Computer Vision · IoT*
-
-A **smart traffic optimization platform** that uses computer vision and IoT sensors to reduce urban congestion in real time.
-
-**What it does:**
-- 📷 Computer vision analyzes live camera feeds for vehicle density
-- 🚦 Dynamically adjusts signal timings based on real traffic load
-- 📊 Live dashboard showing congestion levels across intersections
-- 🗺️ Detects and flags congestion hotspots automatically
-- 📈 Historical data analysis for traffic pattern prediction
-
-**Technical highlights:**
-- Computer vision pipeline processes real-time video frames
-- IoT sensor fusion for multi-source traffic data
-- PostgreSQL stores historical patterns for analysis
-- React dashboard with live updating charts
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![ComputerVision](https://img.shields.io/badge/Computer_Vision-f97316?style=flat-square)
 
 </td>
 </tr>
@@ -199,16 +271,6 @@ A **smart traffic optimization platform** that uses computer vision and IoT sens
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Antony136&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" />
-
-</div>
-
----
-
 ## 📈 Contribution Graph
 
 <div align="center">
@@ -219,25 +281,69 @@ A **smart traffic optimization platform** that uses computer vision and IoT sens
 
 ---
 
-## 🌱 Currently
+## 💡 What Makes My Projects Different
 
 ```
-📚 Learning    →  AI/ML integration into web apps
-🔨 Building    →  Expanding Mini CRM with Kanban board + global search
-🎯 Goal        →  Land a full-stack engineering internship / role
-🏆 Hackathons  →  HackIT · Hackinfinity · GDSC · iCube · HackML
-💬 Ask me about → MERN stack, TypeScript, system design, hackathons
+🏥 Diabetic         →  Medical AI running on 512MB RAM using NumPy JET colormaps
+Retinopathy            instead of Matplotlib — saving 100MB per inference call
+
+🏢 Mini CRM         →  PDF export built from raw data via jsPDF — not a DOM screenshot.
+                        Works perfectly in dark mode, across all browsers, every time.
+
+🌐 Portfolio        →  3D star field with React Three Fiber, not a CSS trick.
+                        Every animation is physics-based, not just a CSS transition.
+
+🚦 Traffic System   →  Real computer vision pipeline on live feeds, not a mock.
+                        IoT sensor fusion from multiple data sources simultaneously.
 ```
 
 ---
 
-## 🤝 Connect With Me
+## 🌱 Currently
+
+```
+📚 Learning    →  AI/ML integration into production web apps
+🔨 Building    →  Expanding Mini CRM with Kanban board + Ctrl+K global search
+🎯 Goal        →  Full-stack engineering internship / role
+💬 Ask me about → MERN stack, TypeScript, Medical AI, system design, hackathons
+🌍 Open to     →  Internships · Collaborations · Open Source contributions
+```
+
+---
+
+## 🤝 Let's Connect
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-antonyabishek.vercel.app-6d28d9?style=for-the-badge&logo=vercel&logoColor=white)](https://antonyabishek.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Antony136-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Antony136)
-[![Email](https://img.shields.io/badge/Email-antonyabishek014@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:antonyabishek014@gmail.com)
+<br/>
+
+<a href="https://antonyabishek.vercel.app">
+  <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit%20My%20Work-6d28d9?style=for-the-badge&labelColor=1a0533" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/Antony136">
+  <img src="https://img.shields.io/badge/GitHub-Antony136-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
+</a>
+&nbsp;
+<a href="mailto:antonyabishek014@gmail.com">
+  <img src="https://img.shields.io/badge/Email-antonyabishek014@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a0a09" />
+</a>
+
+<br/><br/>
+
+> 💬 I'm always open to interesting conversations, collaborations, and opportunities.<br/>
+> Whether you have a project idea, a job opening, or just want to talk tech — reach out!
+
+<br/>
+
+<!-- Snake animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Antony136/Antony136/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Antony136/Antony136/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Antony136/Antony136/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
@@ -245,8 +351,8 @@ A **smart traffic optimization platform** that uses computer vision and IoT sens
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6d28d9&height=100&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=100&section=footer" />
 
-<sub>⭐ If you find my projects helpful, consider giving them a star — it means a lot!</sub>
+<sub>⭐ If you find my projects useful, a star goes a long way — thank you!</sub>
 
 </div>
